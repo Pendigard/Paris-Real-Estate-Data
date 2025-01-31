@@ -28,4 +28,4 @@
 
 ## TODO
 
-E, C -> Trouver des sources de données intéréssante pour répondre aux problématiques (05/02)
+E, C -> ~~Trouver~~ Scrapper des sources de données intéréssante pour répondre aux problématiques (05/02)
