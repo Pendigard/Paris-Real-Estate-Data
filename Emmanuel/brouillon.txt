@@ -1,0 +1,1 @@
+attrs : list_id, first_publication_date, price, location("zipcode","lat","lon"), url
