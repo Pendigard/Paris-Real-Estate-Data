@@ -4,7 +4,13 @@
 
 ### Pourquoi c'est difficile de se loger à Paris pour un étudiant?
 
-## Axes de reflexion
+## Idees
+
+- faire le prix/m2
+- normaliser
+- a quel point les proprios sont frauduleux en fonction des quartiers
+- qualité de vie du quartier (en fonction du prix)
+- voir l'encadrement des loyers
 
 ## Problématiques
 
@@ -17,6 +23,8 @@
 7. Quels sont les critères de selection?
 8. Quels quartiers sont les plus adaptés?
 9. Quels sont les moyens de transport?
+10. qualité du logement commerces de proximité, lignes de transports, super-marché, laverie
+11. trouver logement en fonction du profil de l'etudiant (POIs)
 
 ## Sources
 
@@ -32,6 +40,6 @@
 
 ## TODO
 
-C -> ~~Trouver~~ Scrapper des sources de données intéréssante pour répondre aux problématiques (05/02)
+E -> Courbes, Histogramme sur les variables importantes aspect non geographique
 
- E -> Trouver des sources et faire la visu
+C -> Heatmap et clustering

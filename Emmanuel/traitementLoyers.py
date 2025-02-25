@@ -31,8 +31,7 @@ df = pd.DataFrame(ads_data, columns=["list_id", "first_publication_date", "price
 # print(df.head())
 
 # Sauvegarder en CSV ou JSON si besoin
-df.to_csv("LoyersFinal.csv", index=False)
-# df.to_json("list_ids_subject.json", orient="records", indent=2)
+# df.to_csv("LoyersFinal.csv", index=False)
 data = df
 import geopandas as gpd
 from pathlib import Path
