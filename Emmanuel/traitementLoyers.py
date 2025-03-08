@@ -16,16 +16,11 @@ for ad in data["ads"]:
                      ad["url"], 
                      next((attr["value"] for attr in ad["attributes"] if attr["key"] == "rooms"), None),
                      next((attr["value"] for attr in ad["attributes"] if attr["key"] == "square"), None)))
-# for ad in data["ads_widget"][0]["ads"]:
-#     ads_data.append((ad["list_id"], ad["first_publication_date"], ad["price"][0], ad["url"])) 
-
-# print(data["ads"][0]["list_id"])
-# print(data["ads_widget"][0]["ads"][0]["list_id"])
-# print(ads_data)
 
 
 # Créer un DataFrame avec les `list_id` et `subject`
-df = pd.DataFrame(ads_data, columns=["list_id", "first_publication_date", "price","latitude","longitude", "urls", "nb_pieces","surface"])
+df = pd.DataFrame(ads_data, columns=["list_id", "first_publication_date", "price",
+                                     "latitude","longitude", "urls", "nb_pieces","surface"])
 
 # Afficher les premières lignes
 # print(df.head())
@@ -58,4 +53,4 @@ m.fit_bounds([sw, ne])
 
 display(m)
 # don = pan.DataFrame(gdf)
-df
+# df

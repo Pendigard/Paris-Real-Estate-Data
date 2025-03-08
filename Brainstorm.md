@@ -1,4 +1,4 @@
-# BrainStrom
+# BrainStorm
 
 ## Problematique
 
