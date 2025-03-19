@@ -4,18 +4,18 @@
 
 ### Pourquoi c'est difficile de se loger à Paris pour un étudiant?
 
-## Idees
+## Idées
 
-- faire le prix/m2
-- normaliser
+- faire le prix/m2 **[Fait]**
+- normaliser **[Fait]**
 - a quel point les proprios sont frauduleux en fonction des quartiers
 - qualité de vie du quartier (en fonction du prix)
 - voir l'encadrement des loyers
 
 ## Problématiques
 
-1. Où est le campus?
-2. Combien je peux dépenser pour un logement?
+1. Où est le campus? **[vu]**
+2. Combien je peux dépenser pour un logement? **[vu]**
 3. Quelle est le poids des aides au logement?
 4. Comment évolue le loyer?
 5. Y'a-t-il suffisament de logements pour les étudiants?
@@ -40,6 +40,6 @@
 
 ## TODO
 
-E -> Courbes, Histogramme sur les variables importantes aspect non geographique
+Célian -> Courbes, Histogramme sur les variables importantes aspect non geographique, encadrement des loyers
 
-C -> Heatmap et clustering
+Emmanuel ->
