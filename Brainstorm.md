@@ -38,8 +38,34 @@
 
 5. [VilleDeParis(4)](https://opendata.paris.fr/explore/dataset/logement-encadrement-des-loyers/export/?disjunctive.nom_quartier&disjunctive.piece&disjunctive.epoque&disjunctive.meuble_txt&disjunctive.id_zone&disjunctive.annee) (info sur les loyers)
 
+6. [Données gouvernementales](https://www.data.gouv.fr/fr/) (polyvalant)
+
 ## TODO
 
 Célian -> Courbes, Histogramme sur les variables importantes aspect non geographique, encadrement des loyers
 
-Emmanuel ->
+Emmanuel -> ???
+
+## Indications sur le projet
+
+- presenter le projet
+- decrire le dataset
+- l'objectif des analyses
+- presenter l'analyses correspondant aux problematiques
+- presentation des resultats des graphes
+- commenter les graphes  
+- dans la conlusion donner la reponse a la problemmatiques
+- les difficultes rencontré dans le projet
+- l'implication de chaque participant
+- penser à vulgariser les résultats (cours sur le storytelling)
+
+## Rendu du projet
+
+Dans un fichier zip mettre  
+
+- Rendu technique (pdf)
+- code + dataset
+- Slides de la présentation
+- Video de 10 minutes (vraiment faire 10 minutes)
+
+A la fin il y'aura un oral de 10 à 15 minutes de questions (en mai à préciser)
