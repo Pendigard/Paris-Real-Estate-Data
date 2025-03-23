@@ -19,7 +19,7 @@
 3. Quelle est le poids des aides au logement?
 4. Comment évolue le loyer?
 5. Y'a-t-il suffisament de logements pour les étudiants?
-6. Quels sont les alternatives à la location classique?
+6. Quels sont les alternatives à la location classique? (crous)
 7. Quels sont les critères de selection?
 8. Quels quartiers sont les plus adaptés?
 9. Quels sont les moyens de transport?
@@ -46,16 +46,21 @@ Célian -> Courbes, Histogramme sur les variables importantes aspect non geograp
 
 Emmanuel -> ???
 
+## Utilisation de modèle
+
+Le modele retourne un vecteur qui represente un score par appratement en fonction du profil d'un etudiant  
+il retourne un vecteur d'appartement
+
 ## Indications sur le projet
 
-- presenter le projet
-- decrire le dataset
+- présenter le projet
+- décrire le dataset
 - l'objectif des analyses
-- presenter l'analyses correspondant aux problematiques
-- presentation des resultats des graphes
+- présenter les analyses correspondants aux problématiques
+- présentation des résultats des graphes
 - commenter les graphes  
-- dans la conlusion donner la reponse a la problemmatiques
-- les difficultes rencontré dans le projet
+- dans la conlusion donner la reponse a la problématique
+- les difficultés rencontrés dans le projet
 - l'implication de chaque participant
 - penser à vulgariser les résultats (cours sur le storytelling)
 
