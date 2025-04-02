@@ -12,6 +12,20 @@
 - qualité de vie du quartier (en fonction du prix)
 - voir l'encadrement des loyers
 
+- Par le prof JNV 26/03/2035
+  - recupérer les tendances d'annonces (par saison) par mois par exemples
+  - relation entre les lieux d'etudes et les logements (ça se vent bien ?)
+    - voir les corrélations si c'est une causalité
+  - voir les stats sur les quariters (criminalité) ? influence sur le prix ?
+
+  - joindre les tables
+  - inventer une tache de prédiction
+  - partir d'une hypothèse et la prouver avec les données trouvés
+
+## représentations intéressantes [les attendus]
+
+- Eviter de traiter les tables de manière disparate
+
 ## Problématiques
 
 1. Où est le campus? **[vu]**
@@ -42,9 +56,9 @@
 
 ## TODO
 
-Célian -> Courbes, Histogramme sur les variables importantes aspect non geographique, encadrement des loyers
+Célian -> donnes de sélectivité de logements, enadrement des loyers, merge les tables, turn over
 
-Emmanuel -> ???
+Emmanuel -> différentes stats sur chaque quartiers  
 
 ## Utilisation de modèle
 
