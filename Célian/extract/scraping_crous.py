@@ -1,7 +1,8 @@
 #%%
 
 # IMPORTS
-
+!pip install -q lxml
+!pip install -q bs4
 import bs4
 from lxml import etree
 import requests
@@ -43,7 +44,7 @@ df_pages.to_csv('../../data/crous_pages.csv', index=False, sep='¥')
 
 # LOAD THE CSV FILE
 
-csv.field_size_limit(int(sys.maxsize/10))
+csv.field_size_limit(int(sys.maxsize/5))
 
 df_pages = pd.read_csv('../../data/crous_pages.csv', sep='¥')
 # %%

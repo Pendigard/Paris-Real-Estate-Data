@@ -30,11 +30,11 @@
 
 1. Où est le campus? **[vu]**
 2. Combien je peux dépenser pour un logement? **[vu]**
-3. Quelle est le poids des aides au logement?
-4. Comment évolue le loyer?
+3. Quelle est le poids des aides au logement? **[skip]**
+4. Comment évolue le loyer? **[vu]**
 5. Y'a-t-il suffisament de logements pour les étudiants?
-6. Quels sont les alternatives à la location classique? (crous)
-7. Quels sont les critères de selection?
+6. Quels sont les alternatives à la location classique? (crous) **[vu]**
+7. Quels sont les critères de selection? **[skip]**
 8. Quels quartiers sont les plus adaptés?
 9. Quels sont les moyens de transport?
 10. qualité du logement commerces de proximité, lignes de transports, super-marché, laverie
