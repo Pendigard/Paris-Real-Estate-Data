@@ -5,7 +5,7 @@ from sklearn.preprocessing import MultiLabelBinarizer
 
 
 # Charger le fichier JSON
-with open("../../Emmanuel/resultats.json", "r", encoding="utf-8") as f:
+with open("../../Emmanuel/resultats_2.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # Extraire les `list_id` et `subject` des annonces
@@ -125,5 +125,5 @@ new_columns = [col for col in df.columns if col not in original_columns]
 df[new_columns] = df[new_columns].fillna(False)
 
 # Export CSV
-df.to_csv("../../data/rent.csv", index=False, encoding="utf-8", sep=";", header=True)
+df.to_csv("../../data/rent_2.csv", index=False, encoding="utf-8", sep=";", header=True)
 # %%
