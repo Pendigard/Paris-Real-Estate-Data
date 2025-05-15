@@ -181,8 +181,10 @@ def fit_regression_model(df: pd.DataFrame, target_column: str = 'price', test_si
 
 # PCA
 
-def get_pca_components(df: pd.DataFrame) -> np.ndarray:
-    pca = PCA(n_components=None)
+def get_pca_components(df: pd.DataFrame, columns: list[str], n_components: int = None) -> tuple:
+    pca = PCA(n_components=n_components)
+    if columns is not None:
+        df = df[columns]
     x_pca = pca.fit_transform(df)
     df_pca = pd.DataFrame(x_pca, columns=[f"PC{i+1}" for i in range(x_pca.shape[1])])
     explained_variance = pca.explained_variance_ratio_
@@ -315,9 +317,9 @@ def merge_rent_and_quartier(df_rent, quartier_path='../../data/quartier_paris.cs
     df_rent = df_rent.drop(columns='C_QU')
     return df_rent
 
-def plot_quartier_heatmap(gdf_quartier_agg, column, title, cmap='RdYlGn_r', save_path=None, legend=True):
+def plot_quartier_heatmap(gdf_quartier_agg, column, title, cmap='RdYlGn_r', save_path=None, legend=True, vmin=None, vmax=None):
     fig, ax = plt.subplots(figsize=(7, 7))
-    gdf_quartier_agg.plot(column=column, ax=ax, legend=legend, cmap=cmap, edgecolor='white', linewidth=0.5)
+    gdf_quartier_agg.plot(column=column, ax=ax, legend=legend, cmap=cmap, edgecolor='white', linewidth=0.5, vmin=vmin, vmax=vmax)
     ax.set_title(title)
     ax.set_axis_off()
     plt.tight_layout()
